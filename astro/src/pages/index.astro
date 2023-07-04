@@ -7,28 +7,39 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Captain Magni's Webpage</title>
 
 		<style>
 			body {
 				background: url("23	.jpg")
 			}
 
+			main {
+				max-width: 800px;
+				margin: 8rem auto;
+			}
+
 			.window-container {
 				border: 1px solid #999999;
 				padding: 20px;
 				background: rgba(0, 0, 0, 0.2);
+				margin: 4rem 0; 
 			}
 		</style>
 		
 
 	</head>
 	<body>
+		<main>
+			<div class="window-container">
+				<h1 class="text-5xl">Captain Magni's Webpage</h1>
+				<p>I make bad games, I hope to make a good one some day!</p>
+			</div>
 
-		<div class="window-container">
-			<h1>Captain Magni's Hidden Webpage</h1>
-			<p>What are you doing here? Theres nothing here</p>
-		</div>
-		
+			<div class="window-container flex flex-col">
+				<h1 class="text-5xl py-4">Bouncin: My First Game</h1>
+				<iframe src="https://itch.io/embed/2147627?bg_color=000000&amp;fg_color=ffffff&amp;link_color=e53b44&amp;border_color=ffffff" width="552" height="167" frameborder="0"><a href="https://capt-magni.itch.io/bouncin">Bouncin by Captain Magni</a></iframe>
+			</div>
+		</main>
 	</body>
 </html>
