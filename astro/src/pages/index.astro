@@ -8,10 +8,13 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Captain Magni's Webpage</title>
+		<link rel="stylesheet" href="/styles/global.css">
 
 		<style>
 			body {
-				background: url("23	.jpg")
+				background-image: url("AzureCrests.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
 			}
 
 			main {
@@ -20,10 +23,12 @@
 			}
 
 			.window-container {
+				font-family: 'FerriteCore';
 				border: 1px solid #999999;
 				padding: 20px;
-				background: rgba(0, 0, 0, 0.2);
+				background: rgba(0, 100, 100, 0.5);
 				margin: 4rem 0; 
+				color: #ffffff;
 			}
 		</style>
 		
@@ -33,7 +38,6 @@
 		<main>
 			<div class="window-container">
 				<h1 class="text-5xl">Captain Magni's Webpage</h1>
-				<p>I make bad games, I hope to make a good one some day!</p>
 			</div>
 
 			<div class="window-container flex flex-col">
