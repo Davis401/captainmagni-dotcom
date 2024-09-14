@@ -1,4 +1,5 @@
 ---
+import '../styles/fonts.css'
 ---
 
 <html lang="en">
@@ -8,7 +9,6 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Captain Magni's Webpage</title>
-		<link rel="stylesheet" href="/styles/global.css">
 
 		<style>
 			body {
@@ -17,32 +17,49 @@
 				background-size: cover;
 			}
 
-			main {
-				max-width: 800px;
-				margin: 8rem auto;
+			h1 {
+				color: #2b2b2b;
 			}
 
+
 			.window-container {
-				font-family: 'FerriteCore';
-				border: 1px solid #999999;
 				padding: 20px;
-				background: rgba(0, 100, 100, 0.5);
+				background: ;
+				background: linear-gradient(rgba(19, 129, 129, 0.9), rgba(19, 129, 129, 0));
 				margin: 4rem 0; 
-				color: #ffffff;
+				color: #000 !important;
+			}
+
+			.font-test {
+				font-size: 32px;
 			}
 		</style>
 		
 
 	</head>
 	<body>
-		<main>
-			<div class="window-container">
-				<h1 class="text-5xl">Captain Magni's Webpage</h1>
+		<main class="container mx-auto">
+			<h1 class="mt-20 text-7xl ferrite">Captain Magni</h1>
+
+
+			<div class="window-container flex flex-col">
+				<h1 class="text-5xl py-4 emotion">Wishlist The Curse of Karlanrik</h1>
+				<iframe src="https://store.steampowered.com/widget/3083290/" frameborder="0" width="700" height="200"></iframe>
 			</div>
 
 			<div class="window-container flex flex-col">
-				<h1 class="text-5xl py-4">Bouncin: My First Game</h1>
-				<iframe src="https://itch.io/embed/2147627?bg_color=000000&amp;fg_color=ffffff&amp;link_color=e53b44&amp;border_color=ffffff" width="552" height="167" frameborder="0"><a href="https://capt-magni.itch.io/bouncin">Bouncin by Captain Magni</a></iframe>
+				<h1 class="text-5xl py-4 emotion">Rusting Steiners</h1>
+				<iframe src="https://itch.io/embed/2826278?bg_color=000000&amp;fg_color=ffffff&amp;link_color=e53b44&amp;border_color=ffffff" width="700" height="200" frameborder="0"></iframe>
+			</div>
+
+			<div class="window-container flex flex-col">
+				<h1 class="text-5xl py-4 emotion">Strike Mode</h1>
+				<iframe src="https://itch.io/embed/2418664?bg_color=000000&amp;fg_color=ffffff&amp;link_color=e53b44&amp;border_color=ffffff" width="700" height="200" frameborder="0"></iframe>
+			</div>
+
+			<div class="window-container flex flex-col">
+				<h1 class="text-5xl py-4 emotion">Bouncin</h1>
+				<iframe src="https://itch.io/embed/2147627?bg_color=000000&amp;fg_color=ffffff&amp;link_color=e53b44&amp;border_color=ffffff" width="700" height="200" frameborder="0"></iframe>
 			</div>
 		</main>
 	</body>

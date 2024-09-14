@@ -1,0 +1,15 @@
+/* Register your custom font family and tell the browser where to find it. */
+@font-face {
+  font-family: 'FerriteCore';
+  src: url('/fonts/FerriteCoreDX-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EmotionEngine';
+  src: url('/fonts/EmotionEngine-8ynA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
